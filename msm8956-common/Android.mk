@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter hydrogen kenzo,$(TARGET_DEVICE)),)
+ifneq ($(filter kenzo,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.display.color@1.0
@@ -100,33 +100,21 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 #include $(CLEAR_VARS)
-#LOCAL_MODULE := CNEService
-#LOCAL_MODULE_OWNER := xiaomi
-#LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
-#LOCAL_CERTIFICATE := platform
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := APPS
-#LOCAL_DEX_PREOPT := false
-#LOCAL_MODULE_SUFFIX := .apk
-#LOCAL_PRIVILEGED_MODULE := true
-#include $(BUILD_PREBUILT)
-
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := com.qualcomm.location
-#LOCAL_MODULE_OWNER := xiaomi
-#LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
-#LOCAL_CERTIFICATE := platform
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := APPS
-#LOCAL_DEX_PREOPT := false
-#LOCAL_MODULE_SUFFIX := .apk
-#LOCAL_PRIVILEGED_MODULE := true
-#include $(BUILD_PREBUILT)
+LOCAL_MODULE := CNEService
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := dpmserviceapp
+LOCAL_MODULE := com.qualcomm.location
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk
+LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
