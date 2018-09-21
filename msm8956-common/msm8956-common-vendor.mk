@@ -68,6 +68,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/xiaomi/msm8956-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/xiaomi/msm8956-common/proprietary/lib/libc.so:system/lib/libc.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/xiaomi/msm8956-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/xiaomi/msm8956-common/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
     vendor/xiaomi/msm8956-common/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
@@ -105,6 +115,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/xiaomi/msm8956-common/proprietary/lib64/libadsprpc.so:system/lib64/libadsprpc.so \
     vendor/xiaomi/msm8956-common/proprietary/lib64/libc.so:system/lib64/libc.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
+    vendor/xiaomi/msm8956-common/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
     vendor/xiaomi/msm8956-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/msm8956-common/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/xiaomi/msm8956-common/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
