@@ -359,6 +359,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libWVStreamControlAPI_L1.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libbluetooth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/android.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.a2dp@1.0.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth@1.0.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_fd_skel.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -558,6 +561,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensor_calibrate.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libbluetooth-binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth-binder.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libbluetooth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libbluetooth_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_jni.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/android.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.a2dp@1.0.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth@1.0.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0_vendor.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/vendor.qti.data.factory@1.0.so:system/vendor/lib64/vendor.qti.data.factory@1.0.so \
